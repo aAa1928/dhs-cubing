@@ -284,7 +284,7 @@ ul {
 
 /* From Uiverse.io by JkHuger */
 .rainbow-hover {
-  font-size: 16px;
+  font-size: 24px;
   font-weight: 700;
   color: #ff7576;
   background-color: #2b3044;
@@ -292,6 +292,7 @@ ul {
   outline: none;
   cursor: pointer;
   padding: 12px 24px;
+  margin-bottom: 12px;
   position: relative;
   line-height: 24px;
   border-radius: 9px;
