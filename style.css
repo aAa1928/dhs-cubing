@@ -1,9 +1,10 @@
 :root {
-  --primary-color: #2a3d66;
-  --secondary-color: #4c6085;
-  --accent-color: #00a8e8;
-  --background-color: #f5f5f5;
-  --text-color: #333333;
+  --primary-color: #dc422f;
+  --secondary-color: #009b48;
+  --accent-color: #0051ba;
+  --background-color: #ffffff;
+  --highlight-color: #ffd500;
+  --text-color: #202020;
 }
 
 * {
@@ -55,9 +56,10 @@ h2 {
 .connect {
   text-align: center;
   padding: 2rem;
-  background-color: white;
+  background-color: var(--background-color);
   border-radius: 10px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  border: 2px solid var(--highlight-color);
 }
 
 .links {
@@ -71,12 +73,15 @@ h2 {
 .social-link {
   color: var(--accent-color);
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 600;
   transition: color 0.3s ease;
+  padding: 5px 10px;
+  border-radius: 5px;
 }
 
 .social-link:hover {
   color: var(--primary-color);
+  background-color: var(--highlight-color);
 }
 
 .separator {
@@ -88,7 +93,7 @@ footer {
   text-align: center;
   margin-top: 3rem;
   padding-top: 2rem;
-  border-top: 1px solid #ddd;
+  border-top: 2px solid var(--highlight-color);
   color: var(--secondary-color);
 }
 
@@ -116,4 +121,11 @@ footer {
   .separator {
     display: none;
   }
+}
+
+#logo {
+  width: 400px;
+  height: auto;
+  margin: 1rem auto;
+  display: block;
 }
