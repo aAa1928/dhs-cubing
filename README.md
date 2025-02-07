@@ -5,3 +5,5 @@ This is the official website for the Dublin High School Cubing Club. The website
 ## About DHS Cubing Club
 
 We are a student-run organization at Dublin High School dedicated to the speedcubing community. Our club welcomes cubers of all skill levels, from beginners to advanced solvers.
+
+Check out the website here: [DHS Cubing website](https://dhscubing.netlify.app/)
