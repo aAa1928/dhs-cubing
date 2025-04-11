@@ -102,18 +102,30 @@ footer {
 @media (max-width: 768px) {
   .container {
     padding: 1rem;
+    margin-top: 0;
+  }
+
+  body {
+    font-size: 16px;
   }
 
   h1 {
-    font-size: 2rem;
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
   }
 
   h2 {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
+    margin-bottom: 1.5rem;
   }
 
   .intro p {
-    font-size: 1.1rem;
+    font-size: 0.95rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .intro p:last-child {
+    margin-bottom: 0;
   }
 
   .links {
@@ -122,6 +134,27 @@ footer {
 
   .separator {
     display: none;
+  }
+
+  .owText {
+    font-size: 11vw;
+    letter-spacing: 0.5vw;
+
+    text-shadow: 0 1px 0 #4a4a4e, -1px -1px 0 #4a4a4e, -2px 1px 0 #343437,
+      -3px 2px 0 var(--secondary-color);
+  }
+
+  header {
+    margin-bottom: 2rem;
+  }
+
+  .intro {
+    margin-top: 1rem;
+  }
+
+  .rainbow-hover {
+    font-size: 24px;
+    padding: 12px 24px;
   }
 }
 
